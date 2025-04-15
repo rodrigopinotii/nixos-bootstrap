@@ -48,7 +48,7 @@
 
     #TODO Replace this with the name of the nixosConfiguration so it can be common
     # Define your hostname
-    hostName = lib.mkDefault "HOSTNAME";
+    hostName = lib.mkDefault "berry";
 
     enableIPv6 = false;
     nftables.enable = true;

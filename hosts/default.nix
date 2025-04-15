@@ -11,7 +11,7 @@
     common-client = import ./common.nix;
 
     # host modules
-    host-HOSTNAME = import ./HOSTNAME;
+    host-berry = import ./berry;
   };
 
   flake.nixosConfigurations =
@@ -22,9 +22,9 @@
       };
     in
     {
-      HOSTNAME = lib.nixosSystem {
+      berry = lib.nixosSystem {
         inherit specialArgs;
-        modules = [ self.nixosModules.host-HOSTNAME ];
+        modules = [ self.nixosModules.host-berry ];
       };
     };
 }
