@@ -152,7 +152,7 @@
         extraConfig = ''
           IdentityFile ~/.ssh/builder-key
           IdentityFile ~/.ssh/github-key
-          host ghaf-net
+          host ghaf-netvm
                user ghaf
                IdentityFile ~/.ssh/builder-key
                hostname 192.168.0.177 # TODO: change this to the actual IP
