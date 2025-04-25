@@ -53,7 +53,7 @@
   networking = {
 
     # Define your hostname
-    hostName = lib.mkDefault "HOSTNAME";
+    hostName = lib.mkDefault "berry";
 
     enableIPv6 = false;
     nftables.enable = true;

@@ -6,6 +6,11 @@
     element-desktop
     zoom-us
     google-chrome
+    firefox
+    protonvpn-gui
+    ookla-speedtest
+    
+    
 
     # Development
     #minicom
