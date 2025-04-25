@@ -150,10 +150,12 @@
       ssh = {
         startAgent = true;
         extraConfig = ''
-          host ghaf-netvm
+          IdentityFile ~/.ssh/builder-key
+          IdentityFile ~/.ssh/github-key
+          host ghaf-net
                user ghaf
                IdentityFile ~/.ssh/builder-key
-               hostname 192.168.10.108 # TODO: change this to the actual IP
+               hostname 192.168.0.177 # TODO: change this to the actual IP
           host ghaf-host
                user ghaf
                IdentityFile ~/.ssh/builder-key
