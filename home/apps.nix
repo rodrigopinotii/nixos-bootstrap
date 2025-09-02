@@ -9,8 +9,6 @@
     firefox
     protonvpn-gui
     ookla-speedtest
-    
-    
 
     # Development
     #minicom

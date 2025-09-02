@@ -30,7 +30,10 @@
           };
           #TODO export this from a toplevel login-users module
           users.rodrigo = {
-            imports = [ (import ../home/home-client.nix) ] ++ [ inputs.nix-index-database.hmModules.nix-index ];
+            imports = [
+              (import ../home/home-client.nix)
+            ]
+            ++ [ inputs.nix-index-database.homeModules.nix-index ];
           };
         };
       }
@@ -148,7 +151,8 @@
     ## Local config for known hosts
     programs = {
       ssh = {
-        startAgent = true;
+        # use the gcr-ssh-agent
+        #startAgent = true;
         extraConfig = ''
           IdentityFile ~/.ssh/builder-key
           IdentityFile ~/.ssh/github-key
