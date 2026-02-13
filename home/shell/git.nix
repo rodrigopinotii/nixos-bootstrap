@@ -4,7 +4,7 @@
 
   programs = {
     git = {
-      package = pkgs.gitAndTools.gitFull;
+      package = pkgs.gitFull;
       enable = true;
       userName = "Rodrigo Pino";
       userEmail = "rodrigo.pino@tii.ae";
@@ -52,7 +52,6 @@
         gh-eco
         gh-dash
         gh-markdown-preview
-        gh-copilot
         gh-f
       ];
     };

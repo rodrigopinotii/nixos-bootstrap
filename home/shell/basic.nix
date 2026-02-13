@@ -4,7 +4,7 @@
     #Modern Linux tools
     cheat
     delta
-    dogdns # DNS client
+   # dogdns  DNS client
     #df replacement duf
     duf
     #du replacement dust
