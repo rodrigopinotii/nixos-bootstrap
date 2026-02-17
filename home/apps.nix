@@ -27,6 +27,11 @@
     #IDE
     vim
     vscode
+
+    #LLM 
+    gemini-cli-bin
+    claude-code
+    
   ];
 
   services = {

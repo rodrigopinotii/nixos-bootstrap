@@ -10,6 +10,7 @@ _: {
       ./yubikey.nix
       ./fail2ban.nix
       ./sshd.nix
+      ./restic-backup.nix
     ];
   };
 }

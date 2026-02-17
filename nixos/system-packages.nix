@@ -15,5 +15,6 @@
     dnsutils
     netcat
     nix-tree
+    restic
   ];
 }
