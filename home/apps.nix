@@ -23,6 +23,7 @@
     gcc
     nixos-generators
     clang-tools
+    obs-studio
 
     #IDE
     vim
